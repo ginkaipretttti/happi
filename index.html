@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Ginny</title>
+    
+    <!-- Add Tailwind CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Add cute font -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Apply cute fonts */
+        body {
+            font-family: 'Nunito', sans-serif;
+        }
+        
+        .cute-title {
+            font-family: 'Pacifico', cursive;
+        }
+        
+        /* Custom animations for hearts */
+        .heart-0 { animation-name: float-0; }
+        .heart-1 { animation-name: float-1; }
+        .heart-2 { animation-name: float-2; }
+        .heart-3 { animation-name: float-3; }
+        .heart-4 { animation-name: float-4; }
+        .heart-5 { animation-name: float-5; }
+        .heart-6 { animation-name: float-6; }
+        .heart-7 { animation-name: float-7; }
+        .heart-8 { animation-name: float-8; }
+        .heart-9 { animation-name: float-9; }
+        .heart-10 { animation-name: float-10; }
+        .heart-11 { animation-name: float-11; }
+        .heart-12 { animation-name: float-12; }
+        .heart-13 { animation-name: float-13; }
+        .heart-14 { animation-name: float-14; }
+        .heart-15 { animation-name: float-15; }
+        .heart-16 { animation-name: float-16; }
+        .heart-17 { animation-name: float-17; }
+        .heart-18 { animation-name: float-18; }
+        .heart-19 { animation-name: float-19; }
+        
+        @keyframes float-0 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(+50px, -100px) rotate(42deg); opacity: 0; } }
+        @keyframes float-1 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(-50px, -100px) rotate(187deg); opacity: 0; } }
+        @keyframes float-2 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(+50px, -100px) rotate(293deg); opacity: 0; } }
+        @keyframes float-3 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(-50px, -100px) rotate(124deg); opacity: 0; } }
+        @keyframes float-4 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(+50px, -100px) rotate(58deg); opacity: 0; } }
+        @keyframes float-5 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(-50px, -100px) rotate(215deg); opacity: 0; } }
+        @keyframes float-6 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(+50px, -100px) rotate(178deg); opacity: 0; } }
+        @keyframes float-7 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(-50px, -100px) rotate(342deg); opacity: 0; } }
+        @keyframes float-8 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(+50px, -100px) rotate(87deg); opacity: 0; } }
+        @keyframes float-9 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(-50px, -100px) rotate(256deg); opacity: 0; } }
+        @keyframes float-10 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(+50px, -100px) rotate(129deg); opacity: 0; } }
+        @keyframes float-11 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(-50px, -100px) rotate(312deg); opacity: 0; } }
+        @keyframes float-12 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(+50px, -100px) rotate(75deg); opacity: 0; } }
+        @keyframes float-13 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(-50px, -100px) rotate(198deg); opacity: 0; } }
+        @keyframes float-14 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(+50px, -100px) rotate(267deg); opacity: 0; } }
+        @keyframes float-15 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(-50px, -100px) rotate(143deg); opacity: 0; } }
+        @keyframes float-16 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(+50px, -100px) rotate(321deg); opacity: 0; } }
+        @keyframes float-17 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(-50px, -100px) rotate(96deg); opacity: 0; } }
+        @keyframes float-18 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(+50px, -100px) rotate(234deg); opacity: 0; } }
+        @keyframes float-19 { 0% { transform: translate(0, 0) rotate(0deg); opacity: 0; } 10% { opacity: 0.5; } 100% { transform: translate(-50px, -100px) rotate(167deg); opacity: 0; } }
+        
+        /* Bubble animations */
+        .bubble-0 { animation-name: floatBubble-0; }
+        .bubble-1 { animation-name: floatBubble-1; }
+        .bubble-2 { animation-name: floatBubble-2; }
+        .bubble-3 { animation-name: floatBubble-3; }
+        .bubble-4 { animation-name: floatBubble-4; }
+        .bubble-5 { animation-name: floatBubble-5; }
+        
+        @keyframes floatBubble-0 { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-20px) rotate(+5deg); } }
+        @keyframes floatBubble-1 { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-20px) rotate(-5deg); } }
+        @keyframes floatBubble-2 { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-20px) rotate(+5deg); } }
+        @keyframes floatBubble-3 { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-20px) rotate(-5deg); } }
+        @keyframes floatBubble-4 { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-20px) rotate(+5deg); } }
+        @keyframes floatBubble-5 { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-20px) rotate(-5deg); } }
+        
+        .heart {
+            position: absolute;
+            color: #f9a8d4;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        
+        .bubble {
+            position: absolute;
+            border-radius: 50%;
+            border: 2px solid #f9a8d4;
+            background-color: white;
+            padding: 4px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in-out;
+            overflow: hidden;
+            z-index: 50;
+        }
+        
+        .bubble img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        /* Container for the entire birthday card */
+        .birthday-container {
+            position: relative;
+            width: 100%;
+            max-width: 1000px; /* Wider container to accommodate bubbles */
+            margin: 0 auto;
+        }
+        
+        /* Main card styling */
+        .birthday-card {
+            width: 100%;
+            max-width: 4xl;
+            background-color: white;
+            border-radius: 1.5rem;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            overflow: hidden;
+            position: relative;
+            z-index: 10;
+            margin: 0 auto;
+        }
+        
+        /* New cute animations */
+        .floating {
+            animation: floating 3s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+        
+        .pulse {
+            animation: pulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .wiggle {
+            animation: wiggle 2.5s ease-in-out infinite;
+        }
+        
+        @keyframes wiggle {
+            0%, 100% { transform: rotate(0); }
+            25% { transform: rotate(5deg); }
+            75% { transform: rotate(-5deg); }
+        }
+        
+        /* Confetti animation */
+        .confetti {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-color: #f9a8d4;
+            animation: confetti-fall 5s linear infinite;
+        }
+        
+        @keyframes confetti-fall {
+            0% { 
+                transform: translateY(-100px) rotate(0deg); 
+                opacity: 1;
+            }
+            100% { 
+                transform: translateY(100vh) rotate(360deg); 
+                opacity: 0;
+            }
+        }
+        
+        /* Rainbow text effect */
+        .rainbow-text {
+            background-image: linear-gradient(to right, #ff9a9e, #fad0c4, #fad0c4, #a18cd1, #fbc2eb);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            animation: rainbow 5s ease infinite;
+            background-size: 400% 100%;
+        }
+        
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        /* Cute border */
+        .cute-border {
+            border: 3px solid transparent;
+            border-image: linear-gradient(to right, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb, #ff9a9e) 1;
+            animation: border-dance 3s linear infinite;
+        }
+        
+        @keyframes border-dance {
+            0% { border-image-source: linear-gradient(to right, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb, #ff9a9e); }
+            25% { border-image-source: linear-gradient(to right, #fbc2eb, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb); }
+            50% { border-image-source: linear-gradient(to right, #a18cd1, #fbc2eb, #ff9a9e, #fad0c4, #a18cd1); }
+            75% { border-image-source: linear-gradient(to right, #fad0c4, #a18cd1, #fbc2eb, #ff9a9e, #fad0c4); }
+            100% { border-image-source: linear-gradient(to right, #ff9a9e, #fad0c4, #a18cd1, #fbc2eb, #ff9a9e); }
+        }
+        
+        /* Emoji animation */
+        .emoji {
+            display: inline-block;
+            animation: emoji-bounce 1s ease infinite;
+        }
+        
+        @keyframes emoji-bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-5px); }
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-pink-50 flex items-center justify-center p-4">
+    <!-- Confetti elements -->
+    <div id="confetti-container" class="fixed inset-0 pointer-events-none z-0"></div>
+    
+    <div class="birthday-container">
+        <!-- Floating Bubbles with Cat Images - OUTSIDE THE CARD -->
+        <div class="bubble bubble-0" style="
+            width: 75px;
+            height: 75px;
+            left: -10%;
+            top: 10%;
+            animation-delay: 2s;
+            animation-duration: 12s;">
+            <img src="321.jpg" alt="Cute cat 1">
+        </div>
+        
+        <div class="bubble bubble-1" style="
+            width: 82px;
+            height: 82px;
+            left: -8%;
+            top: 50%;
+            animation-delay: 0s;
+            animation-duration: 10s;">
+            <img src="34.jpg" alt="Cute cat 2">
+        </div>
+        
+        <div class="bubble bubble-2" style="
+            width: 68px;
+            height: 68px;
+            left: -5%;
+            top: 80%;
+            animation-delay: 3s;
+            animation-duration: 9s;">
+            <img src="3.jpg" alt="Cute cat 3">
+        </div>
+        
+        <div class="bubble bubble-3" style="
+            width: 90px;
+            height: 90px;
+            left: 105%;
+            top: 15%;
+            animation-delay: 1s;
+            animation-duration: 11s;">
+            <img src="2.jpg" alt="Cute cat 4">
+        </div>
+        
+        <div class="bubble bubble-4" style="
+            width: 65px;
+            height: 65px;
+            left: 108%;
+            top: 60%;
+            animation-delay: 4s;
+            animation-duration: 13s;">
+            <img src="1.jpg" alt="Cute cat 5">
+        </div>
+        
+        <div class="bubble bubble-5" style="
+            width: 78px;
+            height: 78px;
+            left: 103%;
+            top: 85%;
+            animation-delay: 2s;
+            animation-duration: 14s;">
+            <img src="2.jpg" alt="Cute cat 6">
+        </div>
+
+        <!-- Main Birthday Card -->
+        <div class="birthday-card cute-border">
+            <div class="p-8 relative z-10">
+                <!-- Cute ribbon at the top -->
+                <div class="absolute top-0 left-0 w-full h-8 bg-gradient-to-r from-pink-300 via-purple-300 to-pink-300 rounded-t-lg"></div>
+                
+                <div class="flex items-center gap-2 mb-8 mt-4">
+                    <h1 class="text-5xl font-bold text-pink-500 cute-title rainbow-text">Happy Birthday myloveee</h1>
+                    <span class="text-4xl emoji">🎉</span>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Fixed Image Section with cute frame -->
+                    <div class="relative rounded-3xl overflow-hidden bg-gradient-to-b from-pink-100 to-pink-200 aspect-square p-3 cute-border pulse">
+                        <div class="absolute -top-2 -right-2 text-3xl emoji">🎀</div>
+                        <div class="absolute -bottom-2 -left-2 text-3xl emoji">🎀</div>
+                        <img 
+                            src="ginny.jpg" 
+                            alt="Birthday Image" 
+                            class="w-full h-full object-cover rounded-2xl"
+                        >
+                    </div>
+
+                    <!-- Message Section -->
+                    <div class="flex flex-col justify-between">
+                        <div class="space-y-4">
+                            <h2 class="text-3xl font-bold text-pink-500 flex items-center gap-2 cute-title">
+                                Wishing You Joy! <span class="emoji">🎂</span>
+                            </h2>
+                            <div class="text-lg text-pink-600 leading-relaxed bg-pink-50 p-4 rounded-xl shadow-inner">
+                                Wahh, happy birthday my love! <span class="emoji">💕</span><br>
+                                I'll always be here for you always.<br>
+                                Don't forget that you'll always have me, okay? <span class="emoji">🥰</span><br>
+                                I miss you so much, and I really mean it.<br>
+                                Please take care of yourself always, alright? <span class="emoji">✨</span><br>
+                                I wish you all the best, muahhh!<br>
+                                You'll always be the prettiest woman in my eyes, love. <span class="emoji">💖</span><br><br>
+                                
+                                This website might not have a lot going on no music or fancy interactions like I used to make for you
+                                but it's a milestone for me, because I made this all on my own.<br>
+                                I'm really proud to say that I built this website for my baby using only what I've learned.<br>
+                                But more than anything, I hope you enjoy your birthday, okay? <span class="emoji">🌸</span><br>
+                                Keep smiling, pretty you're everyone's sunshine. and i will always be your man <span class="emoji">🌼</span><br><br>
+                                
+                                <span class="font-bold">-Sekai <span class="emoji">💖</span></span>
+                            </div>
+                        </div>
+                        
+                        <!-- Cute footer with animated emojis -->
+                        <div class="mt-4 flex justify-center gap-3">
+                            <span class="text-2xl emoji" style="animation-delay: 0s;">🎁</span>
+                            <span class="text-2xl emoji" style="animation-delay: 0.2s;">🎈</span>
+                            <span class="text-2xl emoji" style="animation-delay: 0.4s;">🧸</span>
+                            <span class="text-2xl emoji" style="animation-delay: 0.6s;">🍰</span>
+                            <span class="text-2xl emoji" style="animation-delay: 0.8s;">💝</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Decorative Hearts -->
+    <div class="fixed inset-0 pointer-events-none">
+        <div class="heart heart-0" style="left: 12%; top: 23%; font-size: 18px; animation-delay: 1s; animation-duration: 8s;">♥</div>
+        <div class="heart heart-1" style="left: 45%; top: 78%; font-size: 24px; animation-delay: 0s; animation-duration: 12s;">♥</div>
+        <div class="heart heart-2" style="left: 67%; top: 34%; font-size: 15px; animation-delay: 3s; animation-duration: 9s;">♥</div>
+        <div class="heart heart-3" style="left: 89%; top: 56%; font-size: 22px; animation-delay: 2s; animation-duration: 11s;">♥</div>
+        <div class="heart heart-4" style="left: 23%; top: 91%; font-size: 19px; animation-delay: 4s; animation-duration: 7s;">♥</div>
+        <div class="heart heart-5" style="left: 78%; top: 12%; font-size: 26px; animation-delay: 1s; animation-duration: 14s;">♥</div>
+        <div class="heart heart-6" style="left: 34%; top: 45%; font-size: 17px; animation-delay: 0s; animation-duration: 10s;">♥</div>
+        <div class="heart heart-7" style="left: 56%; top: 67%; font-size: 21px; animation-delay: 3s; animation-duration: 13s;">♥</div>
+        <div class="heart heart-8" style="left: 91%; top: 23%; font-size: 16px; animation-delay: 2s; animation-duration: 8s;">♥</div>
+        <div class="heart heart-9" style="left: 12%; top: 78%; font-size: 25px; animation-delay: 4s; animation-duration: 11s;">♥</div>
+        <div class="heart heart-10" style="left: 45%; top: 34%; font-size: 20px; animation-delay: 1s; animation-duration: 9s;">♥</div>
+        <div class="heart heart-11" style="left: 67%; top: 56%; font-size: 14px; animation-delay: 0s; animation-duration: 15s;">♥</div>
+        <div class="heart heart-12" style="left: 89%; top: 91%; font-size: 23px; animation-delay: 3s; animation-duration: 7s;">♥</div>
+        <div class="heart heart-13" style="left: 23%; top: 12%; font-size: 18px; animation-delay: 2s; animation-duration: 12s;">♥</div>
+        <div class="heart heart-14" style="left: 78%; top: 45%; font-size: 27px; animation-delay: 4s; animation-duration: 10s;">♥</div>
+        <div class="heart heart-15" style="left: 34%; top: 67%; font-size: 15px; animation-delay: 1s; animation-duration: 13s;">♥</div>
+        <div class="heart heart-16" style="left: 56%; top: 23%; font-size: 22px; animation-delay: 0s; animation-duration: 8s;">♥</div>
+        <div class="heart heart-17" style="left: 91%; top: 78%; font-size: 19px; animation-delay: 3s; animation-duration: 11s;">♥</div>
+        <div class="heart heart-18" style="left: 12%; top: 34%; font-size: 24px; animation-delay: 2s; animation-duration: 9s;">♥</div>
+        <div class="heart heart-19" style="left: 45%; top: 56%; font-size: 17px; animation-delay: 4s; animation-duration: 14s;">♥</div>
+    </div>
+
+    <!-- JavaScript for confetti and other cute effects -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const confettiContainer = document.getElementById('confetti-container');
+            
+            // Create confetti
+            function createConfetti() {
+                const colors = ['#f9a8d4', '#fbcfe8', '#ddd6fe', '#c4b5fd', '#fef3c7'];
+                const shapes = ['square', 'circle'];
+                
+                for (let i = 0; i < 100; i++) {
+                    setTimeout(() => {
+                        const confetti = document.createElement('div');
+                        const color = colors[Math.floor(Math.random() * colors.length)];
+                        const shape = shapes[Math.floor(Math.random() * shapes.length)];
+                        const left = Math.random() * 100;
+                        const size = Math.random() * 10 + 5;
+                        const duration = Math.random() * 3 + 2;
+                        const delay = Math.random() * 5;
+                        
+                        confetti.classList.add('confetti');
+                        confetti.style.left = `${left}%`;
+                        confetti.style.width = `${size}px`;
+                        confetti.style.height = `${size}px`;
+                        confetti.style.backgroundColor = color;
+                        confetti.style.borderRadius = shape === 'circle' ? '50%' : '0';
+                        confetti.style.animationDuration = `${duration}s`;
+                        confetti.style.animationDelay = `${delay}s`;
+                        
+                        confettiContainer.appendChild(confetti);
+                        
+                        // Remove confetti after animation
+                        setTimeout(() => {
+                            confetti.remove();
+                        }, (duration + delay) * 1000);
+                    }, i * 50);
+                }
+            }
+            
+            // Create initial confetti
+            createConfetti();
+            
+            // Create confetti periodically
+            setInterval(createConfetti, 10000);
+            
+            // Add cute floating emojis randomly
+            function addRandomEmoji() {
+                const emojis = ['🎂', '🎁', '🎈', '🎊', '💖', '✨', '🌸', '🧸', '🍰', '🎀'];
+                const emoji = document.createElement('div');
+                const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+                const left = Math.random() * 100;
+                
+                emoji.textContent = randomEmoji;
+                emoji.style.position = 'fixed';
+                emoji.style.left = `${left}%`;
+                emoji.style.top = '100%';
+                emoji.style.fontSize = '24px';
+                emoji.style.zIndex = '40';
+                emoji.style.pointerEvents = 'none';
+                emoji.style.animation = 'float-emoji 8s linear forwards';
+                
+                document.body.appendChild(emoji);
+                
+                // Remove emoji after animation
+                setTimeout(() => {
+                    emoji.remove();
+                }, 8000);
+            }
+            
+            // Add CSS for emoji float animation
+            const style = document.createElement('style');
+            style.textContent = `
+                @keyframes float-emoji {
+                    0% { transform: translateY(0); opacity: 0; }
+                    10% { opacity: 1; }
+                    100% { transform: translateY(-100vh); opacity: 0; }
+                }
+            `;
+            document.head.appendChild(style);
+            
+            // Add random emojis periodically
+            setInterval(addRandomEmoji, 1000);
+            
+            // Add sparkle effect to the title
+            const title = document.querySelector('.rainbow-text');
+            if (title) {
+                function createSparkle() {
+                    const sparkle = document.createElement('span');
+                    sparkle.textContent = '✨';
+                    sparkle.style.position = 'absolute';
+                    sparkle.style.fontSize = '12px';
+                    sparkle.style.opacity = '0';
+                    sparkle.style.animation = 'sparkle 2s linear forwards';
+                    
+                    // Random position around the title
+                    const top = Math.random() * title.offsetHeight;
+                    const left = Math.random() * title.offsetWidth;
+                    sparkle.style.top = `${top}px`;
+                    sparkle.style.left = `${left}px`;
+                    
+                    title.appendChild(sparkle);
+                    
+                    // Remove sparkle after animation
+                    setTimeout(() => {
+                        sparkle.remove();
+                    }, 2000);
+                }
+                
+                // Add CSS for sparkle animation
+                const sparkleStyle = document.createElement('style');
+                sparkleStyle.textContent = `
+                    @keyframes sparkle {
+                        0% { transform: scale(0); opacity: 0; }
+                        50% { transform: scale(1); opacity: 1; }
+                        100% { transform: scale(0); opacity: 0; }
+                    }
+                `;
+                document.head.appendChild(sparkleStyle);
+                
+                // Create sparkles periodically
+                setInterval(createSparkle, 300);
+            }
+        });
+    </script>
+</body>
+</html>
